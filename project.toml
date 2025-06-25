@@ -1,0 +1,14 @@
+[project]
+
+name = "com.br.lanceainofinanceiro"
+
+[build]
+builder = "heroku/builder:22"
+
+[[build.buildpacks]]
+id = "heroku/nodejs-engine@3.6.10"
+
+[[build.buildpacks]]
+id = "heroku/nodejs-corepack"
+[[build.buildpacks]]
+id = "heroku/nodejs-pnpm-install"
