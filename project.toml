@@ -3,7 +3,7 @@
 name = "com.br.lanceainofinanceiro"
 
 [build]
-builder = "heroku/builder:22"
+builder = "heroku/builder:24"
 
 [[build.buildpacks]]
 id = "heroku/nodejs-engine@3.6.10"
