@@ -10,5 +10,9 @@ id = "heroku/nodejs-engine@3.6.10"
 
 [[build.buildpacks]]
 id = "heroku/nodejs-corepack"
+
 [[build.buildpacks]]
 id = "heroku/nodejs-pnpm-install"
+
+[[build.buildpacks]]
+id = "heroku/procfile"
